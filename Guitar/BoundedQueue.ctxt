@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=BoundedQueue
+comment0.text=\n\ BoundedQueue.java.\n\ A\ bounded\ queue\ is\ a\ queue\ with\ a\ maximum\ capacity\:\ no\ elements\ can\ be\ enqueued\ when\ the\ queue\ is\ full\ to\ its\ capacity.\ \n\n\ @author\ Kailyn\ Lau\n\ @version\ v1.0\n
+comment1.params=capacity
+comment1.target=BoundedQueue(int)
+comment1.text=\n\ Constructor\ that\ initializes\ the\ bounded\ queue\ with\ a\ specified\ capacity.\n\n\ @param\ capacity\ the\ maximum\ number\ of\ elements\ in\ the\ bounded\ queue\n
+comment2.params=
+comment2.target=boolean\ isFull()
+comment2.text=\n\ @return\ true\ if\ the\ queue\ is\ at\ capacity,\ false\ otherwise\n
+comment3.params=element
+comment3.target=void\ enqueue(java.lang.Object)
+comment3.text=\n\ Overrides\ the\ enqueue\ method\ to\ prevent\ adding\ elements\ when\ full.\n\n\ @param\ element\ the\ element\ to\ be\ enqueued\ into\ the\ queue\n\ @throws\ IllegalStateException\ if\ the\ queue\ is\ full\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+comment4.text=\n\ Main\ method\ to\ test\ this\ class.\n
+numComments=5
